@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.pytest_cache/
+.cache/
+*.log
+
+# coverage tests
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode / PyCharm settings
+.vscode/
+.idea/
+
+# SQLite 
+*.sqlite3
+*.db
+
+# Jupyter
+*.ipynb
+
+# Env files (секреты)
+.env
+.env.*
+
+# Alembic
+alembic/versions/   
+alembic.ini
+
+# Mac / Linux / Windows OS files
+.DS_Store
+Thumbs.db
+
+# other files to ignore
+crudOLD.py

@@ -1,0 +1,10 @@
+fastapi[all] 
+uvicorn[standart]
+sqlalchemy 
+psycopg2 
+alembic 
+passlib[bcrypt] 
+python-jose 
+pydantic 
+pytest
+httpx
