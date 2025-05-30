@@ -34,7 +34,6 @@ ENV/
 .env.*
 
 # Alembic
-alembic/versions/   
 alembic.ini
 
 # Mac / Linux / Windows OS files
