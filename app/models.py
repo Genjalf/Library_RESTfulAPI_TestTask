@@ -29,6 +29,7 @@ class Book(Base):
     year = Column(Integer, nullable=True)
     isbn = Column(String, unique=True, nullable=True)
     copies = Column(Integer, default=1)
+    description = Column(String, nullable=True)
 
     # связь с таблицей BorrowedBooks
     borrowed_books = relationship("BorrowedBook", back_populates="book")
